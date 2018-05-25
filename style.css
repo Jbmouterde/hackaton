@@ -104,6 +104,7 @@ body {
 .titreH3{
     width: 50%;
     float : left; 
+    text-align : center; 
 }
 
 nav{
@@ -112,4 +113,32 @@ nav{
 
 .nav-wrapper{
     margin: 0% 15%;
+}
+
+
+
+
+
+
+
+.blankSection{
+    height: 80vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.titreH3 h3{
+    font-size : 50px;
 }
