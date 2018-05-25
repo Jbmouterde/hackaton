@@ -143,4 +143,18 @@ nav{
 
 .titreH3 h3{
     font-size : 50px;
+    margin-bottom: 40px
+}
+
+.titreH3 p{
+    margin-right: 40px;
+    margin-left: 40px;
+
+
+}
+
+.titreH3 li{
+font-size : 25px;
+margin-bottom : 20px
+
 }
