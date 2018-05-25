@@ -75,9 +75,17 @@ body {
 }
 
 .below-section h2 {
-    font-size: 25em;
+    font-size: 30em;
     font-family: 'Times New Roman', Times, serif;
+    color: rgba(255, 192, 203, 0.7);    
 }
+
+.below-section span {
+    position: relative;
+    top: 80px;
+    color: rgba(223, 175, 183, 0.7);
+}
+
 nav{
     background-color: black !important;
 }
