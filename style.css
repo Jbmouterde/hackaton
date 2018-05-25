@@ -56,13 +56,17 @@ body {
 }
 
 .upper-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100vw;
     height: 100vh;
     text-align: center;
-    line-height: 100vh;
+    line-height: 20vh;
     color: white;
     background: black;
-    font-size: 3em;
+    font-size: 6em;
+    font-family: "Vanity-LightWide", serif;
 }
 
 .below-section {
