@@ -47,7 +47,7 @@ q:before, q:after {
 
 
 /*
- ACTUAL CSS
+ FIRST FULL SCREENS
  /////////////////////////////////////////////
  */
 
@@ -141,4 +141,86 @@ nav{
 
 .titreH3 h3{
     font-size : 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+ DETAILS SECTIONS
+ /////////////////////////////////////////////
+ */
+
+.details-wrapper {
+    margin-left: 10vw;
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.detail-jantes,
+.detail-moteur {
+    display: flex;
+    margin-bottom: 25vh;
+}
+
+.detail-jantes div,
+.detail-moteur div {
+    position: relative;
+    top: 80px;
+}
+
+.detail-jantes img,
+.detail-moteur img {
+    width: 40vw;
+    margin-right: 30px;
+    align-self: center;
+}
+
+.detail-jantes h3,
+.detail-moteur h3 {
+    color: #383838;
+    font-size: 2em;
+    font-family: "Moon2.0-Regular", arial, sans-serif;
+    margin-bottom: 20px;
+}
+
+.detail-jantes p,
+.detail-moteur p {
+    color: #707070;
+    font-size: 1.3em;
+    line-height: 1.5em;
+    width: 40vw;
+    margin-right: 20px;
 }
