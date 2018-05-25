@@ -3,48 +3,126 @@
  /////////////////////////////////////////////
  */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
 }
 body {
-	line-height: 1;
+  line-height: 1;
 }
-ol, ul {
-	list-style: none;
+ol,
+ul {
+  list-style: none;
 }
-blockquote, q {
-	quotes: none;
+blockquote,
+q {
+  quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
 }
-
-
-
 
 /*
  FIRST FULL SCREENS
@@ -52,77 +130,72 @@ q:before, q:after {
  */
 
 body {
-    height: 3000px;
+  height: 3000px;
 }
 
 .upper-section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100vw;
-    height: 100vh;
-    text-align: center;
-    line-height: 20vh;
-    color: white;
-    background: black;
-    font-size: 6em;
-    font-family: "Vanity-LightWide", serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+  line-height: 20vh;
+  color: white;
+  background: black;
+  font-size: 6em;
+  font-family: "Vanity-LightWide", serif;
 }
 
 .below-section {
-    text-align: center;
-    width: 100vw;
-    height: 40vh;
-    z-index: -10;
-    position: fixed;
-    top: 0;
+  text-align: center;
+  width: 100vw;
+  height: 40vh;
+  z-index: -10;
+  position: fixed;
+  top: 0;
 }
 
 .below-section h2 {
-    font-size: 30em;
-    font-family: 'Times New Roman', Times, serif;
-    color: rgba(255, 192, 203, 0.7);    
+  font-size: 30em;
+  font-family: "Times New Roman", Times, serif;
+  color: rgba(255, 192, 203, 0.7);
 }
 
 .below-section span {
-    position: relative;
-    top: 80px;
-    color: rgba(223, 175, 183, 0.7);
+  position: relative;
+  top: 80px;
+  color: rgba(223, 175, 183, 0.7);
 }
 
-
-
-
-
-
-
-.titleImg{
-    width: 50%;
-    float : left; 
+.titleImg {
+  width: 50%;
+  float: left;
 }
 
-.titreH3{
-    width: 50%;
-    float : left; 
-    text-align : center; 
+.titreH3 {
+  background-color: white;
+  width: 50%;
+  float: left;
+  text-align: center;
+  height: 404px;
 }
 
-nav{
-    background-color: black !important;
+nav {
+  background-color: black;
 }
 
-.nav-wrapper{
-    margin: 0% 15%;
+.nav-wrapper {
+  margin: 0% 15%;
+  background: black;
 }
 
+.blankSection {
+  height: 80vh;
+}
 
-
-
-
-
-
-.blankSection{
-    height: 80vh;
+.sparkles {
+  width: 100%;
 }
 
 
@@ -141,10 +214,60 @@ nav{
 
 .titreH3 h3{
     font-size : 50px;
+    margin-bottom: 40px
 }
 
 
 
+.nav-wrapper,
+.footer-bar
+{
+    margin: 0% 15%;
+}
+
+
+.nav-bar li,
+.footer-bar li
+{
+    float: left;
+    padding: 1%;
+    font-size: 20px;
+}
+
+.footer-bar li{
+    font-size: 30px;
+    padding: 10%;
+
+}
+.nav-bar li a
+{
+    text-decoration: none;
+    color: white;
+}
+.footer-bar li a{
+    text-decoration: none;
+    color: black;
+    font-size: 70px;
+
+
+
+}
+
+.titreH3 p{
+    margin-right: 40px;
+    margin-left: 40px;
+
+
+}
+
+.titreH3 li{
+font-size : 25px;
+margin-bottom : 20px;
+}
+
+.titleImg {
+  margin-bottom: 250px;
+}
 
 
 
