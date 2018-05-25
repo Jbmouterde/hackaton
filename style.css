@@ -102,9 +102,11 @@ body {
 }
 
 .titreH3{
+    background-color : white; 
     width: 50%;
     float : left; 
     text-align : center; 
+    height : 404px; 
 }
 
 nav{
