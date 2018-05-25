@@ -87,8 +87,41 @@ body {
 }
 
 nav{
-    background-color: black !important;
+    background-color: black;
 }
-.nav-wrapper{
+
+.nav-wrapper,
+.footer-bar
+{
     margin: 0% 15%;
 }
+
+
+.nav-bar li,
+.footer-bar li
+{
+    
+    float: left;
+    padding: 1%;
+    font-size: 20px;
+}
+
+.footer-bar li{
+    font-size: 30px;
+    padding: 10%;
+
+}
+.nav-bar li a
+{
+    text-decoration: none;
+    color: white;
+}
+.footer-bar li a{
+    text-decoration: none;
+    color: black;
+    font-size: 70px;
+
+
+
+}
+
